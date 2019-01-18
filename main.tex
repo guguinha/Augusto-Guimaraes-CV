@@ -1,0 +1,262 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\makeatletter
+%\usepackage{fontspec}
+\usepackage{import}
+\usepackage{fontawesome}
+
+% personal data
+\name{Augusto}{Guimarães}
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Rua dos Pescadores, 543, Ponta do Seixas }{João Pessoa - PB}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+55 83 98888-1310}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+55 83 3251-1225}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+%\github{guguinha}
+%\cvlinkedin{augusto-guimarães-11425533}
+\email{augustocesarguim@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.leandro-aurelio.blogspot.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{%
+  \faGithub \hspace{0cm} \httplink{www.github.com/guguinha}
+  \faLinkedin \hspace{0cm} \httplink{www.linkedin.com/in/augusto-guimarães-11425533}}
+%\extrainfo{\faLinkedin \quad augusto-guimarães-11425533}
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{aug}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{"Pra tudo tem um jeito"}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{
+Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Computação pela Universidade Federal da Paraíba. Fui monitor de introdução à programação em Pascal e monitor no projeto social Escola de Computação Solidária. }
+%Gosto de programar e tenho facilidade para aprender novas linguagens, estar sempre aprendendo coisas novas  }
+
+\section{Experi\^encia Profissional}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{Agosto 2018--Atual}{Show Tecnologia -- João Pessoa}{Desenvolvedor Web Full Stack}{Show Tecnologia}{}{\vspace{3pt} Principais Atividades: Criação e implementação dos sistemas desejado pelo cliente, criação de banco de dados, análise e levantamento de todos os requisitos necessários para evolução do projeto, sendo ele estrutural ou no padrão MVC, atuando também como Front-End e Back-End.}}
+
+\vspace{6pt}
+
+%\item{\cventry{Agosto 2018--Atual}{Desenvolvedor de Sistemas Web}{Show Tecnologia}{Show Tecnologia}{}{\vspace{3pt}Principais atividades: Criação e implementação dos sistemas desejado pelo cliente, criação de banco de dados, análise e levantamento de todos os requisitos necessários para evolução do projeto, sendo ele estrutural ou no padrão MVC, atuando também como Front-End e Back-End.}}
+%Atuação na Área de suporte Técnico à infraestrutura, responsável por preparar ambientes para treinamentos de baixa, média e alta complexidade, responsável por liderança de equipes de preparação e facilities, resolução de problemas de acordo com o tipo e situação-caso, estudo e provimento de soluções que otimizam a infraestrutura atual, garantindo economia de energia e recursos tecnológicos, sistemas de virtualização (VMWare) e computação em nuvem (VSpace e Azure), projetos e soluções para automatização de processos.}}
+
+%\vspace{6pt}
+
+\end{itemize}
+
+\section{Educação}
+
+\vspace{5pt}
+
+\subsection{Qualificações Acadêmicas}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2010--2017}{Bacharelado em Ciência da Computação }{Universidade Federal da Paraíba - UFPB}{Paraíba}{\textit{}}{}}  % arguments 3 to 6 can be left empty
+
+\end{itemize}
+
+\vspace{2pt}
+
+\subsection{Projetos}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{Trabalho de Conclusão de Curso} \textit{'Uma análise comparativa sobre as estratégias de inicialização da população em algoritmos genéticos para o problema de eficiência energética em trens urbanos'}}
+
+\vspace{3pt}
+
+%\small{O trabalho consiste na investigação da evolução dos sistemas de rede e sua dinâmica, no cerne do trabalho está uma proposta para as redes atuais para que seja possível suprir seu crescimento gerando poucos impactos na estrutura atual através do uso do conceito de redes definidas por software, bem como a utilização de SDN-WIFI para que seja possível atender todos os tipos de serviços de transmissão de dados.}}
+
+
+%\newpage
+%\vspace{5pt}
+
+%\item{\textbf{3rd year individual project:} \textit{'Artificial Neural Network Approach to Source Localisation in Radiation Portal Monitoring'}
+
+%\vspace{3pt}
+
+%\small{This challenging project took place over the entirety of my third year. It required excellent planning and organisational skills, and the ability to teach myself an entirely new and complex subject. The project was a success, with the system being able to localise a radioactive source down to $ 3 cm$ within a $ 600 m^3$ sensor array. This project has been suggested for publication by my supervisor.}}
+
+%\vspace{6pt}
+
+%\item{\textbf{Industrial Project with Leyland Motors Ltd:}\textit{'Development of a Facility to Ensure the Achievement of Torque Parameters for a Specific Axle Configuration'}
+
+%\vspace{3pt}
+
+%\small{In the 3rd year of my course I spent a week completing an industrial project for Leyland Motors. I worked with a team operating as consultants for a particular problem the company was having. During this project I was working in a professional environment, and co-operating with various managers and engineers to create a design that met the requirements of the problem.}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\section{Conhecimentos Técnicos e Pessoais}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Tecnologia da Informaçao:} C, Java, Pascal, HTML, PHP, JavaScript, CSS, Bootstrap, AJAX, JQuery, MySQL, LaTeX, Conhecimentos em lógica, Framework Codeigniter, Conhecimentos em Inteligência Artificial, Algoritmos Genéticos, Produtos MS Office.
+
+\vspace{6pt}
+
+%\item \textbf{Adicionais:} MySQL, Conhecimentos em lógica, Framework Codeigniter, Produtos MS Office.
+
+%\vspace{6pt}
+
+%\item \textbf{Conhecimentos em Softwares Industriais:} Matlab (Básico), CST (Básico) Produtos MS Office incluindo project e excel (Intermediário).
+
+%\vspace{6pt}
+
+%\item \textbf{Certificações de TI:} Microsoft MCP (Windows XP e Server 2003), MCDST (Windows XP), SYSTIMAX, Comptia IT Fundamentals.
+
+%\vspace{6pt}
+
+\item \textbf{Conhecimentos Gerais de Negócios:} Gestão de projetos, boa apresentação, facilidade com trabalho em equipe, boa comunicação.
+
+\vspace{6pt}
+
+\item \textbf{Línguas:} Inglês Intermediario.
+
+%\vspace{6pt}
+
+%\item \textbf{Outros:} Facilidade para redigir relatórios técnicos com suas devidas citações e referências.
+
+\end{itemize}
+
+\section{Atividades Extracurriculares}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{2013--2014}{Universidade Federal da Paraíba--UFPB}{Monitor de Introdução a Programação}{UFPB}{}{\vspace{3pt} Monitor da disciplina Introdução a Programação em Pascal, Carga horária: 12, Regime: Dedicação exclusiva.}}
+
+\vspace{6pt}
+
+\item{\cventry{2008--2008}{Centro Universitário de João Pessoa-UNIPÊ}{Monitor no projeto social Escola de computação solidária}{UNIPÊ}{}{\vspace{3pt} Projeto social \textit{"Escola de computação solidária"} do Curso de Ciência da Computação do Centro Universitário de João Pessoa-UNIPÊ, com 60 horas.}}
+
+%\vspace{6pt}
+
+%\item{\cventry{2008--2008}{Projeto social \textit{"Escola de computação solidária"} do Curso de Ciência da Computação \\ do Centro Universitário de João Pessoa-Unipê, com 60 horas}{Monitor no projeto social Escola de computação solidária}{UNIPÊ}{\textit{}}{}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\section{Cursos e Treinamentos}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Tecnologia da Informação e Comunicação:} Formação em Gerenciamento de Projetos (UDEMY, 7h), Entendendo e documentando REST / RESTful APIs (UDEMY, 5h), Git e Github para iniciantes (UDEMY, 2h) .
+
+\vspace{6pt}
+
+\item \textbf{Em Andamento:} Desenvolvimento Web Completo 2019 - 19 cursos + 20 projetos (UDEMY, 106h), Programando com o Framework PHP Codeigniter 3 (UDEMY, 9.5h), O curso completo de Banco de Dados e SQL, sem mistérios (UDEMY, 32.5h) .
+
+
+\vspace{6pt}
+
+
+
+\end{itemize}
+%\vspace{6pt}
+
+%\begin{itemize}
+
+%\item \textbf{} .
+
+%\vspace{6pt}
+
+%\end{itemize
+%\item{I was a "fresher representative" in my 2nd and 3rd years of university, this required me to guide, look after, and ensure that a particular flat of first years have a good time in their first week, and feel consoled in what for most of them is there first time living away from home. We were responsible for the safety and wellbeing of the group of first years during the first week, and during this time I made good friends with all of them.}
+
+%\vspace{6pt}
+
+%\item{I am a member of a number of university societies. I was also the vice president and co-founder of the flash mob society. My roles in this included recruiting members, in which during "fresher's fair" we enlisted over 200 new members. This was regarded as very successful, considering other societies averaged around 50. I also appeared in an interview on the university television station, set up a society bank account, and helped organise the events. One of these events was featured in the local newspaper.}
+
+%\vspace{6pt}
+
+%\item{I am also an avid hiker, having completed the national 3 peaks challenge last summer. Other interest include guitar, which I am self-taught, and home brewing.}
+
+%\end{itemize}
+
+%\section{References}
+
+%\vspace{6pt}
+ 
+%\begin{itemize}
+
+%\item{Up to 4 references available on request}
+
+%\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
