@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % modern themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -40,8 +40,10 @@
 \email{augustocesarguim@gmail.com}                               % optional, remove / comment the line if not wanted
 %\homepage{www.leandro-aurelio.blogspot.com}                         % optional, remove / comment the line if not wanted
 \extrainfo{%
-  \faGithub \hspace{0cm} \httplink{www.github.com/guguinha}
-  \faLinkedin \hspace{0cm} \httplink{www.linkedin.com/in/augusto-guimarães-11425533}}
+  \faGithub \hspace{0cm} \href{http://www.github.com/guguinha}{guguinha} %\httplink{www.github.com/guguinha}{guguinha}
+  \hspace{3cm}
+  \faLinkedin \hspace{0cm} \href{http://www.linkedin.com/in/augusto-guimarães-11425533}{augusto-guimarães}
+  }
 %\extrainfo{\faLinkedin \quad augusto-guimarães-11425533}
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{aug}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
@@ -64,8 +66,8 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{
-Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Computação pela Universidade Federal da Paraíba. Fui monitor de introdução à programação em Pascal e monitor no projeto social Escola de Computação Solidária. }
+%\small{
+%Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Computação pela Universidade Federal da Paraíba. Fui monitor de introdução à programação em Pascal e monitor no projeto social Escola de Computação Solidária. }
 %Gosto de programar e tenho facilidade para aprender novas linguagens, estar sempre aprendendo coisas novas  }
 
 \section{Experi\^encia Profissional}
@@ -74,7 +76,7 @@ Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Co
 
 \begin{itemize}
 
-\item{\cventry{Agosto 2018--Atual}{Show Tecnologia -- João Pessoa}{Desenvolvedor Web Full Stack}{Show Tecnologia}{}{\vspace{3pt} Principais Atividades: Criação e implementação dos sistemas desejado pelo cliente, criação de banco de dados, análise e levantamento de todos os requisitos necessários para evolução do projeto, sendo ele estrutural ou no padrão MVC, atuando também como Front-End e Back-End.}}
+\item{\cventry{Agosto 2018--Atual}{Show Tecnologia -- João Pessoa}{Desenvolvedor Web Full Stack}{Show Tecnologia}{}{\vspace{3pt} Atividades Desenvolvidas: Criação e implementação de sistemas, criação de banco de dados, análise e levantamento de todos os requisitos necessários para evolução do projeto, sendo ele estrutural ou no padrão MVC, atuando também como Front-End e Back-End, viagem para auxiliar e instruir no uso do sistema e realizar melhorias de acordo com as necessidades do cliente. }}
 
 \vspace{6pt}
 
@@ -89,27 +91,27 @@ Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Co
 
 \vspace{5pt}
 
-\subsection{Qualificações Acadêmicas}
+%\subsection{Qualificações Acadêmicas}
 
-\vspace{5pt}
+%\vspace{5pt}
 
 \begin{itemize}
 
-\item{\cventry{2010--2017}{Bacharelado em Ciência da Computação }{Universidade Federal da Paraíba - UFPB}{Paraíba}{\textit{}}{}}  % arguments 3 to 6 can be left empty
+\item{\cventry{2010--2017}{Bacharelado em Ciência da Computação }{Universidade Federal da Paraíba - UFPB}{Paraíba}{}{\vspace{}} {}}  % arguments 3 to 6 can be left empty
 
 \end{itemize}
 
-\vspace{2pt}
+%\vspace{2pt}
 
-\subsection{Projetos}
+%\subsection{Projetos}
 
-\vspace{5pt}
+%\vspace{5pt}
 
-\begin{itemize}
+%\begin{itemize}
 
-\item{\textbf{Trabalho de Conclusão de Curso} \textit{'Uma análise comparativa sobre as estratégias de inicialização da população em algoritmos genéticos para o problema de eficiência energética em trens urbanos'}}
+%\item{\textbf{Trabalho de Conclusão de Curso} \textit{'Uma análise comparativa sobre as estratégias de inicialização da população em algoritmos genéticos para o problema de eficiência energética em trens urbanos'}}
 
-\vspace{3pt}
+%\vspace{3pt}
 
 %\small{O trabalho consiste na investigação da evolução dos sistemas de rede e sua dinâmica, no cerne do trabalho está uma proposta para as redes atuais para que seja possível suprir seu crescimento gerando poucos impactos na estrutura atual através do uso do conceito de redes definidas por software, bem como a utilização de SDN-WIFI para que seja possível atender todos os tipos de serviços de transmissão de dados.}}
 
@@ -131,6 +133,20 @@ Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Co
 
 %\small{In the 3rd year of my course I spent a week completing an industrial project for Leyland Motors. I worked with a team operating as consultants for a particular problem the company was having. During this project I was working in a professional environment, and co-operating with various managers and engineers to create a design that met the requirements of the problem.}}
 
+%\end{itemize}
+
+%\vspace{5pt}
+
+\section{Produção de Minicursos}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{05--09 Fevereiro 2018}{Centro de Informática--UFPB}{XVIII Semana da Computação}{UFPB}{}{\vspace{3pt} Minicurso de "Algoritmos Genéticos e suas aplicações", Carga horária: 3h.}}
+
+%\vspace{6pt}
+
 \end{itemize}
 
 \vspace{2pt}
@@ -141,7 +157,7 @@ Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Co
 
 \begin{itemize}
 
-\item \textbf{Tecnologia da Informaçao:} C, Java, Pascal, HTML, PHP, JavaScript, CSS, Bootstrap, AJAX, JQuery, MySQL, LaTeX, Conhecimentos em lógica, Framework Codeigniter, Conhecimentos em Inteligência Artificial, Algoritmos Genéticos, Produtos MS Office.
+\item \textbf{Tecnologia da Informaçao:} C, Java, Pascal, HTML5, PHP, JavaScript, CSS3, Bootstrap, AJAX, JQuery, MySQL, LaTeX, Conhecimentos em lógica, Framework Codeigniter, Conhecimentos em Inteligência Artificial, Algoritmos Genéticos, Produtos MS Office.
 
 \vspace{6pt}
 
@@ -189,24 +205,24 @@ Desenvolvedor de Sistemas na Empresa Show Tecnologia. Graduado em Ciência da Co
 
 \vspace{2pt}
 
-\section{Cursos e Treinamentos}
+%\section{Cursos e Treinamentos}
 
-\vspace{6pt}
+%\vspace{6pt}
 
-\begin{itemize}
+%\begin{itemize}
 
-\item \textbf{Tecnologia da Informação e Comunicação:} Formação em Gerenciamento de Projetos (UDEMY, 7h), Entendendo e documentando REST / RESTful APIs (UDEMY, 5h), Git e Github para iniciantes (UDEMY, 2h) .
+%\item \textbf{Tecnologia da Informação e Comunicação:} Formação em Gerenciamento de Projetos (UDEMY, 7h), Entendendo e documentando REST / RESTful APIs (UDEMY, 5h), Git e Github para iniciantes (UDEMY, 2h) .
 
-\vspace{6pt}
+%\vspace{6pt}
 
-\item \textbf{Em Andamento:} Desenvolvimento Web Completo 2019 - 19 cursos + 20 projetos (UDEMY, 106h), Programando com o Framework PHP Codeigniter 3 (UDEMY, 9.5h), O curso completo de Banco de Dados e SQL, sem mistérios (UDEMY, 32.5h) .
-
-
-\vspace{6pt}
+%\item \textbf{Em Andamento:} Desenvolvimento Web Completo 2019 - 19 cursos + 20 projetos (UDEMY, 106h), Programando com o Framework PHP Codeigniter 3 (UDEMY, 9.5h), O curso completo de Banco de Dados e SQL, sem mistérios (UDEMY, 32.5h) .
 
 
+%\vspace{6pt}
 
-\end{itemize}
+
+
+%\end{itemize}
 %\vspace{6pt}
 
 %\begin{itemize}
